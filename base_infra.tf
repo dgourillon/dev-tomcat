@@ -1,6 +1,6 @@
 resource "google_service_account" "default" {
-  account_id   = "service_account_id"
-  display_name = "Service Account"
+  account_id   = "compute-sa"
+  display_name = "compute-sa"
 }
 
 resource "google_compute_network" "vpc_network" {
